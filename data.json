@@ -1,0 +1,216 @@
+{"intents": [
+  {"tag": "Sapaan",
+   "patterns": ["Hi", "Halo", "Permisi","Tes","Hai","P", "Saya mau bertanya"],
+   "responses": ["Hai kak, adakah yang ingin ditanyakan? Dealer Toyota siap membantu \uD83D\uDE0A"],
+   "context": [""]
+  },
+  {"tag": "bantuan",
+   "patterns": ["bantu saya","tolong saya","bisakah anda membantu saya","tolong arahkan saya","bantu","ada yang ingin saya tanyakan?","tanyakan"],
+   "responses": ["Hai kak, adakah yang ingin ditanyakan? Dealer Toyota siap membantu \uD83D\uDE0A"],
+   "context": [""]
+  },
+  {"tag": "Penutup",
+   "patterns": ["Bye", "Sampai jumpa", "Selamat tinggal"],
+   "responses": ["Sampai bertemu kembali \uD83D\uDC4B\uD83C\uDFFB"],
+   "context": [""]
+  },
+  {"tag": "Terima Kasih",
+   "patterns": ["Terimakasih", "Makasih", "Sangat membantu", "Bagus", "Terima kasih telah membantu"],
+   "responses": ["Senangnya Beta dapat membantu \uD83E\uDD17"],
+   "context": [""]
+  },
+  {"tag": "Tidak Ada Jawaban",
+   "patterns": [" "],
+   "responses": ["Maaf, Beta tidak mengerti \uD83D\uDE1E",
+                 "Mohon berikan Beta informasi yang lebih spesifik yaa \uD83D\uDE0A",
+                 "Mohon maaf kak, Beta tidak memahaminya \uD83D\uDE22"],
+   "context": [""]
+  },
+  {"tag": "Menu",
+   "patterns": ["Menu","layanan apa saja yang tersedia","layanan","apa saja yang dilayani","layanan apa saja yang tersedia?"],
+   "responses": ["Silahkan ketikkan nomor pertanyaan yang ingin ditanyakan, Beta siap membantu \uD83E\uDD17\n1. Jam Operasional\n2. Jenis Pelayanan\n3. Cara Booking\n4. Fasilitas dealer Toyota\n5. Biaya\n6. Estimasi Waktu\n7. Metode Pembayaran\n8. Membership\n9. Cek Status Kendaraan\n10. Hubungi CS"],
+   "context": [""]
+  },
+  {"tag": "1",
+   "patterns": ["1","1. Jam Operasional","Jam operasional Dealer?","Apakah dealer buka?","Buka jam berapa?","Tutup jam berapa?","Jam Operasional","Jam Buka"],
+   "responses": ["Dealer Toyota melayani pembelian mobil dan servis mobil setiap hari, kecuali hari libur. Kami buka mulai pukul 08.00 - 20.00 WIB. Silahkan berkunjung \uD83D\uDE0A"],
+   "context": [""]
+  },
+  {"tag": "2",
+   "patterns": ["2","2. Jenis Pelayanan","Pelayanan apa saja yang tersedia?","Jenis Pelayanan","Pelayanan","Jenis Servis"],
+   "responses": ["Selamat datang di Dealer Toyota \uD83D\uDC4B\uD83C\uDFFB\nKami memberikan pelayanan servis mobil, dan pembelian mobil"],
+   "context": [""]
+  },
+  {"tag": "3",
+   "patterns": ["3","3. Cara Booking","Booking", "Jadwal", "Bagaimana cara booking?", "Melakukan Booking", "Informasi Penjadwalan" ],
+   "responses": ["Untuk saat ini, booking dapat dilakukan dengan menghubungi pihak CS secara langsung", "Anda dapat melakukan booking dengan menghubungi pihak customer service kami"],
+   "context": [""]
+  },
+  {"tag": "4",
+   "patterns": ["4","4. Fasilitas Dealer","Fasilitas ada apa aja?","Fasilitas?","Ada wifi?","Ada Apaan?" ],
+   "responses": ["Fasilitas yang ada di Dealer toyota ada banyak lho kak! \uD83E\uDD17\nKami menyediakan ruang tunggu ber-AC yang dilengkapi sofa, mesin minuman, tv, wifi, dan masih banyak lagi. Tersedia juga toilet bersih, mushola, dan spot foto aesthetic"],
+   "context": [""]
+  },
+  {"tag": "5",
+   "patterns": ["5","5. Biaya","Biaya Servis","Biaya","Harga"],
+   "responses": ["Jika mobil telah mencapai 10.000 kilometer, estimasi biaya servisnya adalah Rp400.000 hingga Rp600.000.\nJika mobil telah mencapai 40.000 kilometer, estimasi biayanya mulai dari Rp1 juta sampai Rp1,2 juta.\nJika mobil telah mencapai 80.000 kilometer, estimasi biaya servisnya Rp2,6 juta sampai Rp3 juta"],
+   "context": [""]
+  },
+  {"tag": "6",
+   "patterns": ["6","6. Estimasi Waktu","Lama pengerjaan", "Waktu pengerjaan", "Butuh waktu berapa?"],
+   "responses": ["Untuk servis ringan waktu yang dibutuhkan tentunya hanya sekitar 1 jam",
+                 "Servis ringan membutuhkan waktu 1 jam, apabila terdapat kerusakan lainnya membutuhkan waktu hingga 2-3 jam ya kak" ],
+   "context": [""]
+  },
+  {"tag": "7",
+   "patterns": ["7","7. Metode Pembayaran","Pembayaran", "Metode pembayaran apa saja?", "Cara bayar?", "bayar", "Membayar"],
+   "responses": ["Kami memiliki banyak metode pembayaran mulai dari e-wallet, transfer bank, hingga bayar di tempat"],
+   "context": [""]
+  },
+  {"tag": "8",
+   "patterns": ["8","8. Membership","ada promo?", "Promo", "diskon", "membership?"],
+   "responses": ["Kami memiliki promo diskon sebesar 20% untuk membership"],
+   "context": [""]
+  },
+  {"tag": "9",
+    "patterns": ["9", "9. Cek Status Kendaraan", "Status kendaraan"],
+    "responses": ["Bisa beri tahu Beta nomor booking kakak?\uD83D\uDE07"],
+    "context": [""]
+  },
+  {"tag": "10",
+   "patterns": ["10","10. Hubungi CS","CS", "Customer Service", "Mohon Dibantu", "Informasi lebih lanjut", "Tidak mengerti" ],
+   "responses": ["Halo, kakak dapat menghubungi 0210822029 untuk berbicara dengan customer service kami ya" ],
+   "context": [""]
+  },
+  {"tag": "Info_Pelayanan",
+   "patterns": ["Jenis Mobil", "Ketentuan", "Informasi"],
+   "responses": ["Halo, Bengkelin tentunya dapat melayani segala jenis mobil \uD83D\uDE0A"],
+   "context": [""]
+  },
+  {"tag": "Jemput",
+   "patterns": ["Cari Bengkel Terdekat ", "Bengkel terdekat", "Bengkelnya di mana?"],
+   "responses": ["Mohon masukkan lokasi anda"],
+   "context": ["search_Dealer_by_params"]
+  },
+  {"tag": "mobil_baru",
+   "patterns": ["Beli mobil baru", "mobil baru","beli","mobil","beli mobil","unit baru"],
+   "responses": ["silahkan type apa yang anda inginkan?, apakah ada pertanyaan dengan unit tersebut?"],
+   "context": ["search_Dealer_by_params"]
+  },
+  {"tag": "service",
+   "patterns": ["service mobil","service","perbaikan","perbaikan mobil","perawatan mobil"],
+   "responses": ["Apa keluhan mobil anda?"],
+   "context": ["search_Dealer_by_params"]
+  },
+  {"tag": "trade-in",
+   "patterns": ["Apakah dealer ini menyediakan jasa trade-in atau pertukaran mobil lama dengan mobil baru?","trade in","penukaran","tukar tambah","tukar tambah mobil","barter","menukar","menukar mobil"],
+   "responses": ["Dealer kami juga menerima layanan dengan penukaran mobil atau tukar tambah mobil"],
+   "context": ["search_trade_in"]
+  },
+  {"tag": "harga mobil",
+   "patterns": [" Berapakah harga mobil ini?","harga","harga mobil","harga kendaraan","biaya mobil"],
+   "responses": ["halo untuk harga mobil tergantung jenis dan merk, untuk type upper class dikisaran harga 500 juta sampai dengan 2 millyar, untuk jenis middle class dikisaran harga 500 juta sampai dengan 1 millyar, untuk lower class dikisaran 100 juta sampai dengan 500 juta"],
+   "context": ["search_trade_in"]
+  },
+  {"tag": "pembayaran",
+   "patterns": [" Apakah dealer ini menyediakan layanan cash atau leasing?","pembayaran","jenis pembayaran","leasing","cash","kredit","cicilan"],
+   "responses": ["kami menerima segala jenis pembayaran baik cash ataupun kredit melalui leasing yang bekerja sama degnan kami"],
+   "context": ["search_trade_in"]
+  },
+  {"tag": "performa_mesin",
+   "patterns": [" Bagaimana performa mesin yang dimiliki oleh merk mobil tersebut dibandingkan dengan merk mobil lainnya dikelasnya?","jenis mobil","jenis","type mobil","type","merk"],
+   "responses": ["kami memiliki type mobil dengan pembagian 3 class yaitu high class, middle class, dan lower class, silahkan berbelanja"],
+   "context": ["tingkat_performa_mesin"]
+  },
+  {"tag": "bahan_bakar",
+   "patterns": [" Bagaimana tingkat konsumsi bahan bakar yang dimiliki oleh mesin pada merk mobil tersebut dibandingkan dengan mesin mobil lainnya","bahan bakar","jenis bahan bakar","konsumsi bahan bakar","jenis BBM","listrik","minyak","premium","pertalite"],
+   "responses": ["hallo untuk tingkat konsumsi bahan bakar disesuaikan dengan penggunaan pengguna ya kak,jenis bahan bakar juga dapat kakak lihat di type dan merk mobil dengan tingkat konsumsin bahan bakar dari Toyota yang sangat irit dan ramah lingkungan"],
+   "context": ["jenis_bahan_bakar"]
+  },
+  {"tag": "garansi",
+   "patterns": ["Apa saja garansi yang dapat di klaim?,","garansi","garansi mobil,","keuntungan membeli mobil","klaim garansi","garansi yang didapat","garansi apa saja"],
+   "responses": ["keuntungan yang didapatkan dari garansi ialah garansi mesin mobil selama 2 tahun, dan proteksi bodi mobil selama 3 tahun, dan dengan proses claim garansi yang sangat mudah dan cepat"],
+   "context": ["claim_garansi"]
+  },
+  {"tag": "tata cara service",
+   "patterns": ["Apakah dealer ini menyediakan jasa antar jemput untuk konsumen yang ingin melakukan perbaikan atau service berkala di dealer ini?","antar jemput service","Service antar jemput","tata cara service"],
+   "responses": ["hallo untuk saat ini dealer kami belum bisa melayani service di tempat atau on the spot ya kak, kami harap dapat dimaklumi"],
+   "context": ["service_ditempat"]
+  },
+  {"tag": "estimasi_waktu",
+   "patterns": ["Berapa estimasi waktu yang dilakukan untuk service?","waktu service","tata cara service","lama service","estimasi waktu service","berapa lama pengerjaan?","jangka waktu service"],
+   "responses": ["untuk service mesin mobil estimasi waktu kami ialah 3-4 hari, untuk perbaikan pada body mobil estimasi waktu kami 1-2 hari"],
+   "context": ["estimasi waktu"]
+  },
+  {"tag": "type_upperclass",
+   "patterns": ["type mobil upperclass apa saja?","upperclass type","type upperclass","kelas atas","tipe mewah","apa saja tipe mewah yang anda miliki?","mewah","mobil mewah"],
+   "responses": ["kami memiliki tipe fortuner, alphard, dan lexus untuk upperclass"],
+   "context": ["tipe mobil mewah"]
+  },
+  {"tag": "type menengah",
+   "patterns": ["type mobil menengah apa saja?","type menengah","sederhana tipe","kelas tengah","tipe menengah","apa saja tipe mobil sederhana yang anda miliki?","mobil sederhana","apa saja tipe mobil sederhana"],
+   "responses": ["kami memiliki tipe avanza dan innova di kelas mobil sederhana"],
+   "context": ["tipe mobil sederhana"]
+  },
+  {"tag": "type murah",
+   "patterns": ["type mobil murah apa saja?","type murah","murah type","kelas bawah","tipe bawah","apa saja tipe mobil murah yang anda miliki?","mobil murah"],
+   "responses": ["kami memiliki tipe ayla dan cayla di tipe mobil murah kak"],
+   "context": ["tipe mobil murah"]
+  },
+  {"tag": "Membeli_upperclass",
+   "patterns": ["saya ingin membeli mobil mewah","saya ingin membeli fortuner","saya ignin membeli mobil upperclass","saya ignin beli mobil upperclass","saya ignin membeli alphard","saya ingin membeli mobil fortuner","saya ingin membeli mobil aplhard"],
+   "responses": ["Silahkan pilih pembayaran anda ingin cash atau kredit"],
+   "context": ["membeli_mobil_upperclass"]
+  },
+  {"tag": "Membeli middle class",
+   "patterns": ["saya ingin membeli mobil middle class","saya ingin membeli mobil innova","saya ingin membeli mobil avanza","saya ingin membeli mobil kelas menengah","saya ingin membelin innova","saya ingin membeli avanza","membeli avanza","membeli innova","beli avanza","beli innova","saya ingin membeli mobil sederhana"],
+   "responses": ["Silahkan pilih pembayaran anda ingin cash atau kredit"],
+   "context": ["membeli_mobil_middle_class"]
+  },
+  {"tag": "Membeli_lowwer_class",
+   "patterns": ["saya ingin membeli mobil lower class","saya ingin membeli ayla","saya ignin membeli mobil murah","membeli mobil murah","beli ayla","beli mobil murah","beli mobil harganya murah","beli mobil harga terjangkau"],
+   "responses": ["Silahkan pilih pembayaran anda ingin cash atau kredit"],
+   "context": ["membeli_mobil_lowwer_class"]
+  },
+  {"tag": "lama proses pembelian mobil",
+   "patterns": ["berapa lama proses pembelian mobil","mobilnya kapan dikirim?","pengiriman mobil","waktu pengiriman mobil berapa lama","kapan mobil dikirim setelah dibeli","prosesnya berapa lama?","proses pembelian mobil berapa lama?","proses pengiriman mobil berapa lama?"],
+   "responses": ["delivery mobil baru akan diproses selama 3-5 hari setelah pembayaran kak"],
+   "context": ["delivery_mobil"]
+  },
+  {"tag": "complaint",
+   "patterns": ["jika ada kendala","jika ada kendala bagaimana?","kalau berkendala","kendala","kendala","kendala apa saja","kalau mobil saya berkendala","mobil saya bermasalah","pengiriman bermasalah","masalah","kendala yang saya alami","masalah saya","masalah yang saya alami"],
+   "responses": ["untuk kendala yang kakak alami bisa ditangani langsung oleh customer service kami ya kak, bisa dihubungi di 0812345697"],
+   "context": ["complaint"]
+  },
+  {"tag": "ongkir",
+   "patterns": ["berapa biaya pengiriman","metode pengiriman","pengiriman mobil","biaya pengiriman","ongkir","biaya ongkir","metode ongkir","ongkir","berapa biaya pengiriman mobil","biaya pengiriman"],
+   "responses": ["seluruh proses dan biaya pengiriman dari kami ya kak dan tidak dipungut biaya apapun"],
+   "context": ["ongkir"]
+  },
+  {"tag": "harga avanza",
+   "patterns": ["berapa harga avanza","berapa harga mobil avanza","saya ignin beli mobil avanza berapa harganya","beli mobil avanza"],
+   "responses": ["harga mobil avanza bervariasi tergantung tipenya ya kak mulai dari 100 juta sampai dengan 250 juta."],
+   "context": ["beli avanza"]
+  },
+  {"tag": "harga ayla",
+   "patterns": ["berapa harga ayla","berapa harga mobil ayla","saya ignin beli mobil ayla berapa harganya","beli mobil ayla","berapa harga mobl murah"],
+   "responses": ["harga mobil avanza bervariasi tergantung tipenya ya kak mulai dari 100 juta sampai dengan 150 juta."],
+   "context": ["beli ayla"]
+  },
+  {"tag": "harga innova",
+   "patterns": ["berapa harga innova","berapa harga mobil innova","saya ignin beli mobil innova","beli mobil innova berapa harganya","berapa harga mobil sederhana"],
+   "responses": ["harga mobil avanza dan innova bervariasi tergantung tipenya ya kak mulai dari 100 juta sampai dengan 250 juta."],
+   "context": ["beli innova"]
+  },
+  {"tag": "harga fortuner",
+   "patterns": ["berapa harga fortuner","berapa harga mobil fortuner","saya ignin beli mobil fortuner berapa harganya","beli mobil fortuner","berapa harga mobil mewah","berapa harga mobil upperclass"],
+   "responses": ["harga mobil fortuner bervariasi tergantung tipenya ya kak mulai dari 900 juta sampai dengan 1,5 Milyar."],
+   "context": ["beli fortuner"]
+  },
+  {"tag": "mobil rusak",
+   "patterns": ["saya ingin ganti oli","ganti oli","mengganti oli mobil","mengganti oli","saya ingin service rutin","service rutin mobil","service rutin kendaraan"],
+   "responses": ["anda dapat memesan antrian di My Toyota dan silahkan datang ke Dealer terdekat di lokasi anda."],
+   "context": ["ganti oli"]
+  }
+]
+}
